@@ -8,7 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/dom4j" />
             <option value="$PROJECT_DIR$/funSDKDemo" />
             <option value="$PROJECT_DIR$/smartControlCenter" />
           </set>

@@ -1,2 +1,2 @@
-include ':smartControlCenter', ':dom4j'
+include ':smartControlCenter'
 include ':funSDKDemo'

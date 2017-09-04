@@ -55,7 +55,7 @@ dependencies {
     //compile 'com.github.devahamed:multi-view-adapter-databinding:1.2.0'
     //compile files('libs/ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar')
     //compile 'com.google.zxing:zxing-parent:3.3.0'
-    compile 'org.dom4j:dom4j:2.0.1'
+    compile 'org.dom4j:dom4j:2.0.+'
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.squareup.okhttp3:okhttp:3.8.1'
     compile 'com.truizlop.sectionedrecyclerview:library:1.2.0'
