@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能家居控制中心</string>
+    <string name="hello_blank_fragment">空白片段</string>
+    <string name="title_activity_device_list">设备列表</string>
+    <string name="title_scene_model">情景模式</string>
+    <string name="title_home">首页</string>
+    <string name="title_device_status">设备状态</string>
+    <string name="connect_btn">打开设备</string>
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_up">注册</string>
+    <string name="title_voice">语音</string>
+    <string name="title_personal">个人中心</string>
+    <string name="title_activity_login">登陆</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_video">监控视频</string>
+    <string name="permission_rationale"></string>
+    <string name="error_invalid_email">电话号码无效</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="add_device">添加设备</string>
+    <string name="finish">完成</string>
+    <string name="scene_edit">场景编辑</string>
+    <string name="scene_name">场景名称</string>
+    <string name="scene_icon">场景图标</string>
+    <string name="add_scene">添加场景</string>
+    <string name="add_zone">添加房间</string>
+    <string name="device_name">设备名称</string>
+    <string name="serial_number">序列号</string>
+    <string name="msg_default_status">请将条码置于取景框内扫描。</string>
+    <string name="msg_camera_framework_bug">很遗憾，Android 相机出现问题。你可能需要重启设备。</string>
+</resources>

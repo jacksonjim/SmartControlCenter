@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="device_item_name">12sp</dimen>
+    <dimen name="zone_item_name">16sp</dimen>
+    <dimen name="device_item_icon_size">68dp</dimen>
+    <dimen name="device_item_toggle_min">48dp</dimen>
+    <dimen name="device_columnWidth">120dp</dimen>
+    <!-- for QR code -->
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+</resources>

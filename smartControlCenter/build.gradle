@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.1'
+
+    defaultConfig {
+        applicationId "com.googolfist.smartcontrolcenter"
+        minSdkVersion 14
+        targetSdkVersion 25
+        vectorDrawables.useSupportLibrary = true
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+        //multiDexEnabled true
+    }
+    dexOptions {
+        jumboMode true
+    }
+    //greendao配置
+    greendao {
+        //版本号，升级时可配置
+        schemaVersion 1
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            jniDebuggable true
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+        }
+    }
+    sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jni/'] } }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //MultiViewAdapter
+    //compile 'com.github.devahamed:multi-view-adapter:1.2.0'
+    // MultiViewAdapter If you want to use data binding
+    //compile 'com.github.devahamed:multi-view-adapter-databinding:1.2.0'
+    //compile files('libs/ksoap2-android-assembly-3.6.2-jar-with-dependencies.jar')
+    compile project(':dom4j')
+    //compile 'com.google.zxing:zxing-parent:3.3.0'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile 'com.truizlop.sectionedrecyclerview:library:1.2.0'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile 'com.hikvision.ezviz:ezuikit:1.1.0'
+    compile 'com.hikvision.ezviz:ezviz-sdk:4.5.0'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:gridlayout-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+}
+repositories {
+    mavenCentral()
+}

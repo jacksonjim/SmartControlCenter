@@ -1,0 +1,36 @@
+#include <jni.h>
+#include <android/log.h>
+#include <stdio.h>
+#include <testC.h>
+
+
+#define LOG_TAG "smartHome"
+#define LOGI(fmt, args...) __android_log_print(ANDROID_LOG_INFO,  LOG_TAG, fmt, ##args)
+#define LOGD(fmt, args...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, fmt, ##args)
+#define LOGE(fmt, args...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, fmt, ##args)
+
+
+JNIEXPORT jint JNICALL
+Java_com_googolfist_smartcontrolcenter_TestJni_testJni(JNIEnv *env, jobject instance) {
+
+    // TODO
+    //main();
+    return 0;
+}
+
+JNIEXPORT jstring JNICALL
+Java_com_googolfist_smartcontrolcenter_TestJni_print(JNIEnv *env, jobject instance) {
+    // TODO
+    // LOGI("test print");
+    return (*env)->NewStringUTF(env, "adfs");
+}
+
+JNIEXPORT void JNICALL
+Java_com_googolfist_smartcontrolcenter_TestJni_testPrint(JNIEnv *env, jobject instance,
+                                                         jcharArray chars_) {
+    jchar *chars = (*env)->GetCharArrayElements(env, chars_, NULL);
+    // TODO
+    (*env)->ReleaseCharArrayElements(env, chars_, chars, 0);
+
+    //LOGD("Opening serial port %s ", );
+}

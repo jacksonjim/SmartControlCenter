@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.googolfist.smartcontrolcenter.deviceControlUI.curtain.CurtainCtrlActivity">
+
+    <include
+        layout="@layout/base_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/curtain_animator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/curtain_open"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/base_toolbar" />
+
+    <ImageButton
+        android:id="@+id/curtain_open_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="72dp"
+        android:minHeight="42dp"
+        android:minWidth="42dp"
+        android:scaleType="fitXY"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/curtain_close_btn"
+        app:layout_constraintTop_toBottomOf="@id/curtain_animator"
+        app:srcCompat="@drawable/ic_curtain_open"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Curtain"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/curtain_open_btn"
+        app:layout_constraintLeft_toLeftOf="@id/curtain_open_btn"
+        app:layout_constraintRight_toRightOf="@id/curtain_open_btn"/>
+
+    <ImageButton
+        android:id="@+id/curtain_close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="72dp"
+        android:minHeight="42dp"
+        android:minWidth="42dp"
+        android:scaleType="fitXY"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintLeft_toRightOf="@+id/curtain_open_btn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/curtain_animator"
+        app:srcCompat="@drawable/ic_curtain_close" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close Curtain"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/curtain_close_btn"
+        app:layout_constraintLeft_toLeftOf="@id/curtain_close_btn"
+        app:layout_constraintRight_toRightOf="@id/curtain_close_btn"/>
+</android.support.constraint.ConstraintLayout>

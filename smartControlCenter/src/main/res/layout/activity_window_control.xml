@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.googolfist.smartcontrolcenter.deviceControlUI.window.WindowCtrlActivity">
+
+    <include layout="@layout/base_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/window_anim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="180dp"
+        android:maxHeight="240dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/open_window"
+        app:layout_constraintTop_toBottomOf="@+id/base_toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+   <android.support.v7.widget.AppCompatImageButton
+       android:id="@+id/window_open_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:scaleType="fitXY"
+       android:maxWidth="64dp"
+       android:adjustViewBounds="true"
+       android:layout_marginTop="0dp"
+       android:background="?attr/selectableItemBackgroundBorderless"
+       app:srcCompat="@drawable/ic_open_window"
+       app:layout_constraintTop_toBottomOf="@id/window_anim"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toLeftOf="@+id/window_close_btn"
+       app:layout_constraintBottom_toBottomOf="parent"
+
+       />
+    <TextView
+        android:id="@+id/label_open_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/push_window"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@id/window_open_btn"
+        app:layout_constraintTop_toBottomOf="@id/window_open_btn"
+        app:layout_constraintRight_toRightOf="@id/window_open_btn"
+        />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/window_close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:maxWidth="64dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="0dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_close_window"
+        app:layout_constraintTop_toBottomOf="@id/window_anim"
+        app:layout_constraintLeft_toRightOf="@id/window_open_btn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/label_close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pull_window"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@id/window_close_btn"
+        app:layout_constraintRight_toRightOf="@id/window_close_btn"
+        app:layout_constraintTop_toBottomOf="@id/window_close_btn"
+        />
+
+</android.support.constraint.ConstraintLayout>

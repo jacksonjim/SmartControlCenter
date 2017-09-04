@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fragment_sports_direct_capture.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-xhdpi\\fragment_sports_direct_capture.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fragment_sports_direct_capture_pre.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-xhdpi\\fragment_sports_direct_capture_pre.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fragment_sports_direct_smotion_stop_nor.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-xhdpi\\fragment_sports_direct_smotion_stop_nor.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fragment_sports_direct_record.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-xhdpi\\fragment_sports_direct_record.png"
+    }
+]

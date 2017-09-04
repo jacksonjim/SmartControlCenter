@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="colorSecondary">#ff4081</color>
+    <color name="colorSecondaryDark">#c60055</color>
+    <color name="colorSecondaryLight">#ff79b0</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="primary_material_light">#00bcd4</color>
+    <color name="textColorError">#FFD50000</color>
+    <color name="colorIcon">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <!-- qr code -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF30324D"
+    android:maxHeight="100dp"
+    android:maxWidth="140dp"
+
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/device_icon"
+        android:layout_width="@dimen/device_item_icon_size"
+        android:layout_height="@dimen/device_item_icon_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:focusable="false"
+        android:maxHeight="72dp"
+        android:maxWidth="@dimen/device_item_icon_size"
+        android:minHeight="40dp"
+        android:minWidth="40dp"
+        android:scaleType="fitCenter"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/device_icon"
+        android:layout_marginLeft="5dp"
+        android:clickable="false"
+        android:minHeight="10dp"
+        android:maxLines="1"
+        android:minWidth="72dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/device_item_name"
+        tools:ignore="RtlHardcoded" />
+
+    <ToggleButton
+        android:id="@+id/device_switch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/device_icon"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="false"
+        android:minWidth="@dimen/device_item_toggle_min"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded" />
+
+    <!--<ImageView
+        android:id="@+id/device_status"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_alignBottom="@+id/device_icon"
+        android:layout_alignLeft="@+id/device_switch_button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@android:drawable/presence_online" />-->
+    <TextView
+        android:id="@+id/device_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="60dp"
+        android:minWidth="30dp"
+        android:textColor="#CCCCCC"
+        android:layout_alignBottom="@+id/device_icon"
+        android:layout_alignLeft="@+id/device_switch_button" />
+
+    <!--<Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/device_switch_button"
+        android:layout_toRightOf="@id/device_icon"
+        android:layout_weight="1"
+        android:text="Switch" />-->
+
+</RelativeLayout>

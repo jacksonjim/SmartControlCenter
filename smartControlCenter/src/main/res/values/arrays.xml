@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    会议室1
+    办公室1
+    办公室2
+    走廊通道
+    展厅
+    会议室2
+    总裁办公室
+    总经理室
+    副总经理室
+    办公大厅
+    -->
+    <string-array name="zone_list">
+        <item>meeting Room</item>
+        <item>Office</item>
+        <item>meeting Room2</item>
+        <item>meeting Room3</item>
+        <item>meeting Room4</item>
+    </string-array>
+
+    <integer-array name="device_type_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="device_type_name">
+        <item>Light</item>
+        <item>Window</item>
+        <item>Curtain</item>
+        <item>Door</item>
+        <item>Air Conditioner</item>
+    </string-array>
+</resources>

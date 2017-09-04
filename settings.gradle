@@ -1,0 +1,2 @@
+include ':smartControlCenter', ':dom4j'
+include ':funSDKDemo'

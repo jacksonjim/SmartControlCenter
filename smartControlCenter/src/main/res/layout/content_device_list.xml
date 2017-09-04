@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/device_list_content"
+    android:name="com.googolfist.smartcontrolcenter.devices.DeviceListFragment"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent"></fragment><!-- app:layout_behavior="@string/appbar_scrolling_view_behavior"
+这里要说的。如果没有这个属性，FrameLayout或者Fragment就会在Toolbar的下面，而如果用了这个属性，就会根据appbar的大小来协调自身的位置-->

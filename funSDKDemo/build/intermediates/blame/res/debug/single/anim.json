@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_center_in.xml",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\anim\\dialog_center_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_center_out.xml",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\anim\\dialog_center_out.xml"
+    }
+]

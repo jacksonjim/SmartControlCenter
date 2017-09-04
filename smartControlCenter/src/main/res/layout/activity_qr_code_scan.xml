@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.zxing.client.android.QRCodeScanActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/capture_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:textAlignment="center"
+        android:theme="@style/ToolbarTheme"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/add_device" />
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/capture_toolbar" />
+
+    <com.google.zxing.client.android.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/capture_toolbar" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/serial_number_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/serial_number"
+        android:minWidth="256dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/capture_toolbar">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/serial_number_editor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_arrow_forward_blue_24dp"
+            android:text=""
+            android:textColor="@color/colorIcon"
+            tools:ignore="RtlHardcoded" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/status_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/scan_qrcode_desc"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serial_number_wrapper" />
+    <TextView
+        android:id="@+id/result_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        android:text="result"
+        android:visibility="gone"
+        android:textColor="@color/result_text"/>
+
+</android.support.constraint.ConstraintLayout>

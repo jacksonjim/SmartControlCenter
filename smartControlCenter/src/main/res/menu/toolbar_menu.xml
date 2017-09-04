@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/toolbar_add"
+        android:title="add scene"
+        android:orderInCategory="78"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/messages"
+        android:title="messages"
+        android:orderInCategory="80"
+        android:icon="@drawable/ic_messages_black_24dp"
+        app:showAsAction="always" />
+
+</menu>
