@@ -12,12 +12,12 @@
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\icon_arrow_right.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ff_ptz_right_normal.png",
-        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\ff_ptz_right_normal.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_checked_no.png",
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\icon_checked_no.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ff_ptz_right_normal.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\ff_ptz_right_normal.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xmjp_cloudbox_klok.png",
@@ -44,12 +44,12 @@
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\xmjp_bulb.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_round_next.png",
-        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\icon_round_next.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xmjp_fbulb.png",
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\xmjp_fbulb.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_round_next.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\icon_round_next.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pic_burst_shoot.png",
@@ -124,20 +124,20 @@
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\icon_close.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\socket_auto.png",
-        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\socket_auto.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_setting_normal.png",
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\icon_setting_normal.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checkbox_checked_red.png",
-        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\checkbox_checked_red.png"
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\socket_auto.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\socket_auto.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xmjp_car.png",
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\xmjp_car.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checkbox_checked_red.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\checkbox_checked_red.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_refresh_pressed.png",
@@ -164,16 +164,16 @@
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\ff_ptz_right_selected.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\socket_usb_close.png",
-        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\socket_usb_close.png"
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\open_checked.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\open_checked.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_devcapture_selected.png",
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\icon_devcapture_selected.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\open_checked.png",
-        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\open_checked.png"
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\socket_usb_close.png",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\drawable-hdpi\\socket_usb_close.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\xmjp_socket.png",

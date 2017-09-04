@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_socket_input.xml",
-        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\layout\\activity_socket_input.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_lan_alarm.xml",
         "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\layout\\activity_device_lan_alarm.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_socket_input.xml",
+        "source": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\src\\main\\res\\layout\\activity_socket_input.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\SmartControlCenter\\funSDKDemo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_device_com_list_item.xml",
