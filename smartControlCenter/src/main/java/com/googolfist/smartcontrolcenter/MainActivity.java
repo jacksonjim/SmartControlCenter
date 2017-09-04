@@ -23,13 +23,19 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+<<<<<<< HEAD
 import android.view.Window;
+=======
+>>>>>>> first comit
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.google.zxing.client.android.CaptureActivity;
+=======
+>>>>>>> first comit
 import com.google.zxing.client.android.QRCodeScanActivity;
 import com.googolfist.smartcontrolcenter.navigationbar.BottomNavigationViewEx;
 import com.googolfist.smartcontrolcenter.navigationbar.MainAdapter;
@@ -50,8 +56,11 @@ import javax.crypto.spec.SecretKeySpec;
 public class MainActivity extends AppCompatActivity implements PopupMenuList.PopupMenuOnClickListener {
 
     private static final String TAG = "MainActivity";
+<<<<<<< HEAD
     private TextView mTextMessage;
     private Button mConnetct;
+=======
+>>>>>>> first comit
     private ISmartHomeService mStartHomeServiceADL;
     private Intent bindIntent;
 
