@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SmartControlCenter.iml" filepath="$PROJECT_DIR$/SmartControlCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funSDKDemo/funSDKDemo.iml" filepath="$PROJECT_DIR$/funSDKDemo/funSDKDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartControlCenter/smartControlCenter.iml" filepath="$PROJECT_DIR$/smartControlCenter/smartControlCenter.iml" />
+    </modules>
+  </component>
+</project>
